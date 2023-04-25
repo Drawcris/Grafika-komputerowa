@@ -60,7 +60,7 @@ public class TransformedShapes extends JPanel {
 		circle();
 	    resetTransform();
 		
-		g2.translate(300,300);
+		g2.translate(375,375);
 		g2.scale(1, 1);
 		g2.setColor(Color.yellow);
 		square();
@@ -72,12 +72,7 @@ public class TransformedShapes extends JPanel {
 		// The next two line scale the X to be twice the original size
 		// and then moves the center of the X from (0,0) to (450,150).
 
-		g2.translate(450,150);
-		g2.scale(2,2);
-
-		// Set the drawing color to red.
-
-		g2.setColor(Color.RED);
+		
 
 		// The next three lines draw a tilted rectangle centered at (0,0).
 
